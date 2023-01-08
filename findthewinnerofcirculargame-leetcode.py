@@ -14,7 +14,7 @@ class Solution:
                 return FindWinner((start + k-1)%len(lst))
         return FindWinner((k-1)%len(lst))
 #itrative solution
-class Solution:
+"""class Solution:
     def findTheWinner(self, n: int, k: int) -> int:
         lst = []
         for i in range(1,n+1):
@@ -24,4 +24,4 @@ class Solution:
             ind = (start + k-1)%len(lst)
             lst.pop(ind)
             start = ind%len(lst)
-        return lst[0]
+        return lst[0]"""
