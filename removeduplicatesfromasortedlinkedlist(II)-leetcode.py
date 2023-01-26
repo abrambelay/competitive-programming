@@ -9,7 +9,6 @@ class Solution(object):
         dummy.next = head
         current = prev.next
         while current:
-            print(hashmap[current.val])
             if hashmap[current.val]<2:
                 prev.next = current
                 prev = prev.next
